@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/Quiz.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+      integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <p>TRIANGLE FUN 📐</p>
+      <input type="checkbox" id="click" />
+      <label for="click">
+        <i class="fas fa-bars" id="menubar"></i>
+      </label>
+
+      <ul>
+        <li>
+          <a href="triangle.html"> Is Triangle ?</a>
+        </li>
+        <li>
+          <a class="active" href="Quiz.html">Triangle Quiz</a>
+        </li>
+        <li>
+          <a href="hypotenuse.html">Find Hypotenuse</a>
+        </li>
+        <li>
+          <a href="area.html">Area Of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <form class="question">
+      <div class="question-container">
+        <p>
+          What is the third angle for the triangle where angle1 = 45° and angle2
+          = 45°?
+        </p>
+        <input type="radio" name="question1" value="45" class="radioBtn" />
+        <label for="45">45 &#176;</label>
+        <input type="radio" name="question1" value="60" class="radioBtn" />
+        <label for="60">60 &#176;</label>
+        <input type="radio" name="question1" value="90" class="radioBtn" />
+        <label for="90">90 &#176;</label>
+      </div>
+
+      <div class="question-container">
+        <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+        <input type="radio" name="question2" value="Acute" />
+        <label for="Acute">Acute</label>
+        <input type="radio" name="question2" value="Obtuse" />
+        <label for="Obtuse">Obtuse</label>
+        <input type="radio" name="question2" value="Right Angled" />
+        <label for="Right Angled">Right Angled</label>
+      </div>
+
+      <div class="question-container">
+        <p>Which triangle has all three sides equal in length?</p>
+        <input type="radio" name="question3" value="Equilateral" />
+        <label for="Equilateral">Equilateral</label>
+        <input type="radio" name="question3" value="Isosceles" />
+        <label for="Isosceles">Isosceles</label>
+        <input type="radio" name="question3" value="Scalene" />
+        <label for="Scalene">Scalene</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          If a triangle has sides equal to 5cm, 4cm and 6cm, then what is the
+          value for its perimeter?
+        </p>
+        <input type="radio" name="question4" value="12cm" />
+        <label for="12cm">12cm</label>
+        <input type="radio" name="question4" value="15cm" />
+        <label for="15cm">15cm</label>
+        <input type="radio" name="question4" value="30cm" />
+        <label for="30cm">30cm</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          What is the area of a triangle whose altitude and base are 12 cm and 7
+          cm, respectively?
+        </p>
+        <input type="radio" name="question5" value="42cm" />
+        <label for="42cm">42cm</label>
+        <input type="radio" name="question5" value="35cm" />
+        <label for="35cm">35cm</label>
+        <input type="radio" name="question5" value="50cm" />
+        <label for="50cm">50cm</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          If O be the circum centre of a triangle PQR and angle QOR = 110°,
+          angle OPR = 25°, then the measure of angle PRQ is
+        </p>
+        <input type="radio" name="question6" value="55" />
+        <label for="55">55°</label>
+        <input type="radio" name="question6" value="60" />
+        <label for="60">60°</label>
+        <input type="radio" name="question6" value="50" />
+        <label for="50">50°</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          If the two angles of a triangle are 45° and 60°, respectively, then
+          find the third angle.
+        </p>
+        <input type="radio" name="question7" value="55" />
+        <label for="55">55°</label>
+        <input type="radio" name="question7" value="80" />
+        <label for="80">80°</label>
+        <input type="radio" name="question7" value="75" />
+        <label for="75">75°</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          The sum of all the angles of a triangle is always equal to what
+          degrees?
+        </p>
+        <input type="radio" name="question8" value="250" />
+        <label for="250">250°</label>
+        <input type="radio" name="question8" value="180" />
+        <label for="180">180°</label>
+        <input type="radio" name="question8" value="90" />
+        <label for="90">90°</label>
+      </div>
+
+      <div class="question-container">
+        <p>What is the name of the longest side of a right-angled triangle?</p>
+        <input type="radio" name="question9" value="Pythagoras" />
+        <label for="Pythagoras">Pythagoras</label>
+        <input type="radio" name="question9" value="Hypotenoose" />
+        <label for="Hypotenoose">Hypotenoose</label>
+        <input type="radio" name="question9" value="Hypotenuse" />
+        <label for="Hypotenuse">Hypotenuse</label>
+      </div>
+
+      <div class="question-container">
+        <p>What kind of triangles does the Pythagorean Theorem work with?</p>
+        <input type="radio" name="question10" value="Right" />
+        <label for="Right">Right</label>
+        <input type="radio" name="question10" value="Isosceles" />
+        <label for="Isosceles">Isosceles</label>
+        <input type="radio" name="question10" value="Equilateral" />
+        <label for="Equilateral">Equilateral</label>
+      </div>
+
+      <div class="question-container">
+        <p>Does an 8, 15, 16 triangle have a Right Angle?</p>
+        <input type="radio" name="question11" value="yes" />
+        <label for="yes">yes</label>
+        <input type="radio" name="question11" value="no" />
+        <label for="no">no</label>
+      </div>
+    </form>
+    <button id="answer">submit Answer</button>
+    <h3 id="output"></h3>
+
+    <script src="../js/Quiz.js"></script>
+  </body>
+</html>

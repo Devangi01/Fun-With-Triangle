@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/triangle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+      integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <p>TRIANGLE FUN 📐</p>
+      <input type="checkbox" id="click" />
+      <label for="click">
+        <i class="fas fa-bars" id="menubar"></i>
+      </label>
+
+      <ul>
+        <li>
+          <a class="active" href="triangle.html"> Is Triangle ?</a>
+        </li>
+        <li>
+          <a href="Quiz.html">Triangle Quiz</a>
+        </li>
+        <li>
+          <a href="hypotenuse.html">Find Hypotenuse</a>
+        </li>
+        <li>
+          <a href="area.html">Area Of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Is it Triangle ? 🤔</h1>
+      <label for="angle1">Angle 1 (in deg)</label>
+      <input type="number" id="angle1" class="angle" />
+
+      <label for="angle2">Angle 2 (in deg)</label>
+      <input type="number" id="angle2" class="angle" />
+
+      <label for="angle3">Angle 3 (in deg)</label>
+      <input type="number" id="angle3" class="angle" />
+
+      <div class="btn-container">
+        <button id="submit">check</button>
+
+        <h3 id="output"></h3>
+      </div>
+    </div>
+    <script src="../js/triangle.js"></script>
+  </body>
+</html>

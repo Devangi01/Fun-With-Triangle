@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+body{
+    background-color: #cffafe;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    margin: 10px 15px ;
+    position: fixed;
+    height: 15vh;
+    width: 100vw;
+    background-color: #155e75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+}
+nav p{
+    color: #06b6d4;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li a{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    padding: 1rem 1rem;
+}
+nav a:hover{
+    color: #000;
+}
+nav a.active{
+    color: #000;
+}
+nav #menubar{
+    font-size: 2rem;
+    margin: 0 2vw;
+    display: none;
+    cursor: pointer;
+}
+nav #click{
+    display: none;
+}
+
+
+
+@media (max-width: 1050px){
+    nav ul{
+        display: block;
+        align-items: center;
+        position: fixed;
+        margin-top: 15vh;
+        top: 0;
+        left: -100%;
+        background-color: #000;
+        height: 100vh;
+        width: 100%;
+        transition: all 0.3s ease;
+        z-index:4;
+    } 
+    nav ul li{
+        margin: 5vh 0;
+        text-align: center;
+    }
+    nav ul li a{
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    nav #menubar{
+        display: inline;
+    }
+    #click:checked ~ul{
+        left: 0%;
+    }
+    .footer ul{
+        width: 70%;
+        margin: 3vh auto;
+    }
+}
