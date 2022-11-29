@@ -44,11 +44,11 @@
       <img src="../images/areaOfTriangle.jpeg" alt="AreaOfTriangle" class="center" />
       <div class="base">
         <label for="base-value">Enter Base value : </label>
-        <input type="number" id="base-value" class="input" min="1"/>
+        <input type="number" id="base-value" class="input" min="1" oninput="validity.valid||(value='');"/>
       </div>
       <div class="height">
         <label for="height-value">Enter Height value : </label>
-        <input type="number" id="height-value" class="input" min="1"/>
+        <input type="number" id="height-value" class="input" min="1" oninput="validity.valid||(value='');"/>
       </div>
       <div class="btn-container">
         <button id="submit">calculate Area</button>
