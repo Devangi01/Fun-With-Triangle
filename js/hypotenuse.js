@@ -19,6 +19,6 @@ button.addEventListener('click', () => {
     if (hypotenuse == 0) {
         output.innerText = `Enter valid length of sides 😡`;
     } else {
-        output.innerText = `Hypotenuse is 📐 ${hypotenuse.toFixed(2)}`;
+        output.innerText = `Hypotenuse is 📐 ${hypotenuse.toFixed(2)} cm`;
     }
 });
