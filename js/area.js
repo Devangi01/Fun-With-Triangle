@@ -10,7 +10,7 @@ function calculateArea() {
     }
     let area = oneSide * secondSide;
     area = area / 2;
-    return `Area = ${area.toFixed(2)}`;
+    return `Area = ${area.toFixed(2)} cm2`;
 }
 button.addEventListener('click', () => {
     let area = calculateArea();
