@@ -15,7 +15,7 @@ function calculateSum(anglesData) {
 button.addEventListener("click", () => {
     let sum = calculateSum(angles);
     if (sum == 180) {
-        output.innerText = `Hoorayyy!! The angles form a triangle cm2🥳`;
+        output.innerText = `Hoorayyy!! The angles form a triangle🥳`;
     } else if (sum == 0) {
         output.innerText = `Enter Angle value 😡`;
     } else {
